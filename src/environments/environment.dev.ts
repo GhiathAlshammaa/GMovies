@@ -1,6 +1,6 @@
 export const environment = {
-  production: true,
-  name: 'prod',
+  production: false,
+  name: 'dev',
   apiConfig: {
     apikey: '6d63ff2905593d362cd65d9b4367d4d6',
     urlBase: 'https://api.themoviedb.org/3/',
