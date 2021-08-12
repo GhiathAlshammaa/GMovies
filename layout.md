@@ -103,6 +103,7 @@
 │ │ │ │ ├── back-button-directive.ts
 │ │ │ │ ├── index.ts
 │ │ │ ├── layout
+│ │ │ │ ├── layout.module.ts
 │ │ │ │ ├── footer
 │ │ │ │ │ ├── footer.component.ts
 │ │ │ │ │ ├── footer.component.html
