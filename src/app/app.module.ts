@@ -20,8 +20,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
     /* Modules */
     CoreModule,
-    SharedModule,
     MaterialModule,
+    SharedModule,
     MoviesModule,
     PagesModule,
     AdminModule,
