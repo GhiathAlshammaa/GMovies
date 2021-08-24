@@ -11,6 +11,8 @@ import { PagesModule } from './pages/pages.module';
 import { AdminModule } from './admin/admin.module';
 import { AuthModule } from './auth/auth.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MainPagesModule } from './main-pages/main-pages.module';
+import { LayoutModule } from './shared/layout/layout.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -27,6 +29,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AdminModule,
     AuthModule,
     BrowserAnimationsModule,
+    LayoutModule,
+    MainPagesModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

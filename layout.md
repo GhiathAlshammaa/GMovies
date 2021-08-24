@@ -84,7 +84,7 @@
 │ │ │ ├── movies.module.ts
 │ │ │ ├── index.ts
 
-│ │ ├── pages
+│ │ ├── main-pages
 │ │ │ ├── Home
 │ │ │ │ ├── home.component.ts
 │ │ │ │ ├── home.component.html
