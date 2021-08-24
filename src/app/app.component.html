@@ -1,4 +1,9 @@
 <app-header [title]="title"></app-header>
-<br />
-{{ title }}
-<!-- <app-footer></app-footer> -->
+
+<!-- Body -->
+<div id="page-container">
+  {{ title }}
+  <router-outlet></router-outlet>
+</div>
+
+<app-footer></app-footer>

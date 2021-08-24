@@ -1,0 +1,32 @@
+
+#footer {
+  color: white;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+#footer > * {
+  font-size: 12px;
+  font-weight: normal;
+  position: relative;
+  width:100%;
+  margin-top: auto;
+  &:hover, &:active, &:visited{
+      text-decoration: none;
+      color: white !important;
+  }
+}
+
+#copyright a {
+  color: gold;
+  text-decoration: none;
+}
+#copyright a:hover {
+  color: white;
+}
