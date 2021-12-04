@@ -7,7 +7,6 @@ import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
 import { MaterialModule } from './material/material.module';
 import { MoviesModule } from './movies/movies.module';
-import { PagesModule } from './pages/pages.module';
 import { AdminModule } from './admin/admin.module';
 import { AuthModule } from './auth/auth.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -25,7 +24,6 @@ import { LayoutModule } from './shared/layout/layout.module';
     MaterialModule,
     SharedModule,
     MoviesModule,
-    PagesModule,
     AdminModule,
     AuthModule,
     BrowserAnimationsModule,
