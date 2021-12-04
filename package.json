@@ -9,6 +9,7 @@
     "build:dev": "ng build --c=dev",
     "start:prod": "ng serve --c=prod",
     "build:prod": "ng build --c=prod --aot",
+    "deploy": "firebase deploy",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
