@@ -77,9 +77,17 @@
 
 │ │ ├── movies
 │ │ │ ├── pages
-│ │ │ │ ├── movieslist
+│ │ │ │ ├── movies-list
 │ │ │ │ │ ├── movieslist.component.ts
-│ │ │ │ │ ├── movieslist.component.html
+│ │ │ │ ├── movie-detail
+│ │ │ │ │ ├── moviedetail.component.ts
+│ │ │ │ ├── index.ts
+
+│ │ │ ├── components
+│ │ │ │ ├── movie-list
+│ │ │ │ ├── movie-detail
+│ │ │ │ ├── index.ts
+
 │ │ │ ├── movies.routing.module.ts
 │ │ │ ├── movies.module.ts
 │ │ │ ├── index.ts
