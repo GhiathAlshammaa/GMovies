@@ -2,19 +2,9 @@
   "database": {
     "rules": "database.rules.json"
   },
-  "firestore": {
-    "rules": "firestore.rules",
-    "indexes": "firestore.indexes.json"
-  },
   "hosting": {
     "rewrites": [{ "source": "**", "destination": "/index.html" }],
     "public": "dist/GMovies",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
-  },
-  "storage": {
-    "rules": "storage.rules"
-  },
-  "remoteconfig": {
-    "template": "remoteconfig.template.json"
   }
 }
