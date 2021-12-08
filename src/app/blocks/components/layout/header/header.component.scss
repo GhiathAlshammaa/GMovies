@@ -5,10 +5,9 @@
   flex: 1 1 auto;
 }
 
-
-#logo{
+#logo {
   font-weight: bold;
-  background-image: url('../../../../assets/logo.png');
+  background-image: url("../../../../../assets/logo.png");
   width: 93px;
   height: 77px;
   background-position: center center;
@@ -23,12 +22,12 @@
   color: white;
 }
 
-
 mat-toolbar {
   background-color: black;
   height: 90px;
 }
 
-mat-toolbar-row, .mat-toolbar-single-row {
+mat-toolbar-row,
+.mat-toolbar-single-row {
   height: 100%;
 }
