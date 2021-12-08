@@ -5,12 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
-import { MaterialModule } from './material/material.module';
+import { MaterialModule } from './core/modules/material/material.module';
 import { AdminModule } from './admin/admin.module';
-import { AuthModule } from './auth/auth.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MainPagesModule } from './main-pages/main-pages.module';
 import { LayoutModule } from './shared/layout/layout.module';
+import { PagesModule } from './pages/pages.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -23,10 +22,9 @@ import { LayoutModule } from './shared/layout/layout.module';
     MaterialModule,
     SharedModule,
     AdminModule,
-    AuthModule,
     BrowserAnimationsModule,
     LayoutModule,
-    MainPagesModule,
+    PagesModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

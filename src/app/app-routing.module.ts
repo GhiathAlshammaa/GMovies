@@ -1,16 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { PageNotFoundComponent } from './main-pages';
-
+import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 
 const routes: Routes = [
   {
     path: '',
     data: { preload: false }, // change to true, when user use this route
     loadChildren: () =>
-      import('@app/main-pages/main-pages.module').then(
-        (m) => m.MainPagesModule
-      ),
+      import('@app/pages/pages.module').then((m) => m.PagesModule),
   },
   // {
   //   path: 'movies',

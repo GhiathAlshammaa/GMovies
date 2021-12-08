@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { SharedModule } from '@app/shared/shared.module';
-import { HomeComponent, PageNotFoundComponent } from '.';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -9,8 +8,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  // declarations: [HomeComponent, PageNotFoundComponent],
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class MainPagesRoutingModule {}
+export class pagesRoutingModule {}
