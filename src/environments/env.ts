@@ -1,16 +1,19 @@
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
+import { commonDevEnv } from './env.common';
 
-export const environment = {
-  production: false,
-  name: 'default',
-  apiConfig: {
-    apikey: '6d63ff2905593d362cd65d9b4367d4d6',
-    urlBase: 'https://api.themoviedb.org/3/',
-    urlConfig: 'https://api.themoviedb.org/3/configuration/',
-  },
-};
+export const environment = { ...commonDevEnv };
+
+// export const environment = {
+//   production: false,
+//   name: 'default',
+//   apiConfig: {
+//     apikey: '6d63ff2905593d362cd65d9b4367d4d6',
+//     urlBase: 'https://api.themoviedb.org/3/',
+//     urlConfig: 'https://api.themoviedb.org/3/configuration/',
+//   },
+// };
 
 /*
  * For easier debugging in development mode, you can import the following file
