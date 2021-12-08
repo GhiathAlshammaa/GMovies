@@ -1,0 +1,14 @@
+/**
+* Fixed Assets Path in the online Release.
+ *
+ * We used the (^) Symbol before font path, when importing the font in (_mixins.scss), 
+ * because the --base-href flag in "build:prod" script of (Package.json), didn't work it naturally. 
+ * That bugFix has happened because of some updates on new Angular Version. 
+ * Which make it any path in SASS could't work normally with Angualr. 
+ * So please take that into account, when you'd import any assets path in the Style of the Project.
+ * 
+ * The temporary Solutions is the following:
+ * 
+ * 
+ * 
+*/

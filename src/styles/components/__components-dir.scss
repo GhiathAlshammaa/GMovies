@@ -1,0 +1,15 @@
+/*
+This file is used to contain all component imports.
+Files inside this folder should contain all styles relating to a reusable component.
+
+# Rules
+    - Micro level reusable components are imported here    
+    - Each component does one thing and one thing only
+    - Components are re-usable across the project
+    - Components are independent
+    - Each stylesheet contains all component styles, variations and states
+
+*/
+
+//Import Component files
+@import 'notification'; // Custom Snackbar Component

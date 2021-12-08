@@ -1,0 +1,36 @@
+/*
+This file is used to contain all Partitions import statements
+
+# Rules
+    - Charset should be included
+    - Only directory files -dir.scss files should be imported
+    - Changes should not be made to this file
+    - Filename is always ‘main’ as it is a compiled file containing multiple stylesheets
+    - All files except /main.scss require an underscore at the beginning of each filename
+
+*/
+
+@charset 'utf-8';
+
+// Abstracts
+@import 'abstracts/__abstracts-dir';
+
+// Base Styles
+@import './base/__base-dir';
+
+// Components
+@import 'components/__components-dir';
+
+// Layout
+@import 'layout/__layout-dir';
+
+// Pages
+@import 'pages/__pages-dir';
+
+// Sections
+@import 'sections/__sections-dir';
+
+//Vendor
+@import 'vendors/__vendors-dir';
+
+

@@ -1,0 +1,12 @@
+/*
+This file is used to contain all base imports.
+Files inside this folder can contain global styles used in the project.
+
+# Rules
+    - Global styles are imported here
+    - A custom reset file can be added to override normalize
+*/
+
+//Import Base files
+@import 'reset'; // Reset/normalize
+@import 'typography'; // Typography rules
