@@ -8,8 +8,8 @@ import { SharedModule } from './shared/shared.module';
 import { MaterialModule } from './core/modules/material/material.module';
 import { AdminModule } from './admin/admin.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { LayoutModule } from './shared/layout/layout.module';
 import { PagesModule } from './pages/pages.module';
+import { LayoutModule } from './blocks/layout/layout.module';
 
 @NgModule({
   declarations: [AppComponent],
