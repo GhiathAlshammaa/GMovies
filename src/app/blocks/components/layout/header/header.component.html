@@ -5,11 +5,21 @@
     </a>
 
     <span class="example-spacer"></span>
-    <!-- <mat-icon
-      class="example-icon"
-      aria-hidden="false"
-      aria-label="Example user verified icon"
-      >verified_user</mat-icon
-    > -->
+
+    <button mat-button [matMenuTriggerFor]="menu">
+      <!-- lang icon -->
+      <mat-icon i18n>language</mat-icon>
+      Language
+    </button>
+
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item *ngFor="let lang of languagesObj">
+        {{ lang?.name }}
+      </button>
+    </mat-menu>
+
+    <span *ngFor="let item of languagesObj">
+      {{ lang?.code }}
+    </span>
   </mat-toolbar-row>
 </mat-toolbar>
